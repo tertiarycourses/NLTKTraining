@@ -6,6 +6,7 @@ These are the exercise files used for [Natural Language Processing with Python N
 The course outline can be found in 
 
 https://www.tertiarycourses.com.sg/natural-language-processing-nlp-nltk.html
+https://www.tertiarycourses.com.my/natural-language-processing-nlp-nltk-malaysia.html
 
 <p><strong>Module 1 Get Started on NLTK</strong></p>
 <ul>
