@@ -1,3 +1,6 @@
+# Module 2: Text Analysis with NLTK
+# POS Tagging
+
 # Noun
 # import nltk
 # print(nltk.pos_tag(['cat']))

@@ -1,3 +1,6 @@
+# Module 2: Text Analysis with NLTK
+# Stop Words
+
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 

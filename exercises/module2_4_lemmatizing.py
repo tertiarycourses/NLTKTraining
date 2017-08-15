@@ -1,3 +1,6 @@
+# Module 2: Text Analysis with NLTK
+# Lemmatizing
+
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 

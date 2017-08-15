@@ -1,3 +1,6 @@
+# Module 3: Corpus
+# Corpus structure
+
 from nltk.corpus import movie_reviews
 
 print(movie_reviews.fileids())

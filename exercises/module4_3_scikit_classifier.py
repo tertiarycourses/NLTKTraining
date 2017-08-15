@@ -1,3 +1,6 @@
+# Module 4: Text Classfication
+# Scikit Classifer Model
+
 # Step 1: Load Data 
 from nltk.corpus import names
 labeled_names = ([(name, 'male') for name in names.words('male.txt')]

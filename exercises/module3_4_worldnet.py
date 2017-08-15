@@ -1,3 +1,6 @@
+# Module 3: Corpus
+# WorldNet
+
 from nltk.corpus import wordnet
 
 # print(wordnet.synsets("motorcars"))

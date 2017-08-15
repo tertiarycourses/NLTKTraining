@@ -1,3 +1,6 @@
+# Module 3: Corpus
+# Corpus structure challenge - reuters
+
 from nltk.corpus import reuters
 
 print(reuters.fileids())

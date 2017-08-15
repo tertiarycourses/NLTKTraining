@@ -1,3 +1,6 @@
+# Module 2: Text Analysis with NLTK
+# Stemming
+
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 

@@ -1,3 +1,6 @@
+# Module 3: Corpus
+# Text statistics challenge
+
 import nltk
 
 text = "Today i learn Python in a Python class and think Python is awesome"

@@ -1,3 +1,6 @@
+# Module 3: Corpus
+# Text statistics
+
 from nltk.corpus import brown
 
 import nltk

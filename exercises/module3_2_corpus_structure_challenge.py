@@ -1,3 +1,6 @@
+# Module 3: Corpus
+# Corpus structure challenge
+
 from nltk.corpus import brown
 
 # print(brown.fileids())
