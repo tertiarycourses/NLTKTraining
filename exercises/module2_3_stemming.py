@@ -1,14 +1,17 @@
 # Module 2: Text Analysis with NLTK
 # Stemming
+# Author: Dr. Alfred
 
-from nltk.stem import PorterStemmer
+from nltk.stem import PorterStemmer,LancasterStemmer
 from nltk.tokenize import word_tokenize
 
-ps = PorterStemmer()
+stemmer = PorterStemmer()
+# stemmer = LancasterStemmer()
 
-#text = "respect, respects, respected, respecting, respectful, respectlfully"
-text = "respect a respectful teacher"
+text = "respect, respects, respected, respecting, respectful, respectlfully"
+#text = "using use used uses"
+#text = "respect a respectful teacher"
 
 words = word_tokenize(text)
 
-print([ps.stem(w) for w in words])
+print([stemmer.stem(w) for w in words])

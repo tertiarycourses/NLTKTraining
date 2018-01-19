@@ -1,13 +1,15 @@
 # Module 2: Text Analysis with NLTK
 # Lemmatizing
+# Author: Dr. Alfred
 
-from nltk.stem import WordNetLemmatizer
+import nltk
 from nltk.tokenize import word_tokenize
 
 #text = "respect, respects, respected, respecting, respectful, respectfully"
-text = "respect a respectful teacher"
+# text = "respects a respectful teacher"
+text = "Women buy things in the shopping mall"
 
-words = word_tokenize(text)
+words = word_tokenize(text.lower())
 
-lemmatizer = WordNetLemmatizer()
+lemmatizer = nltk.WordNetLemmatizer()
 print([lemmatizer.lemmatize(w) for w in words])

@@ -1,4 +1,6 @@
-# Module 4: Text Classfication
+# Module 4: Text Classificaton
+# Supervied Text Classification
+# Author: Dr. Alfred
 
 # Step 1: Load Data
 from nltk.corpus import names
