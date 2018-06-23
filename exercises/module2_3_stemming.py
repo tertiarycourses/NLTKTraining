@@ -8,9 +8,13 @@ from nltk.tokenize import word_tokenize
 stemmer = PorterStemmer()
 # stemmer = LancasterStemmer()
 
-text = "respect, respects, respected, respecting, respectful, respectlfully"
-#text = "using use used uses"
-#text = "respect a respectful teacher"
+
+# Sucess Cases
+text = "running run"
+
+# Failed Cases
+#text ="meanness, meaning"
+
 
 words = word_tokenize(text)
 

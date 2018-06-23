@@ -5,9 +5,11 @@
 import nltk
 from nltk.tokenize import word_tokenize
 
-#text = "respect, respects, respected, respecting, respectful, respectfully"
-# text = "respects a respectful teacher"
-text = "Women buy things in the shopping mall"
+text = "running run"
+
+text ="meanness meaning"
+
+# text = "Women buy things in the shopping mall"
 
 words = word_tokenize(text.lower())
 

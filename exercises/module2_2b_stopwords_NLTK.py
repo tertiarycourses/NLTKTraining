@@ -5,6 +5,8 @@
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
+# print(stopwords.words('english')[0:500:25])
+
 stop_words = set(stopwords.words("english"))
 
 text = """ Dostoevsky was the son of a doctor. 

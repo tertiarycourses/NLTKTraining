@@ -3,3 +3,4 @@
 # Author: Dr. Alfred
 
 import nltk
+nltk.download()

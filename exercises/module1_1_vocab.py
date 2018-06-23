@@ -9,6 +9,8 @@ two rooms. The father and mother spent their evenings
 in reading aloud to their children, generally from books of
 a serious character."""
 
+# text = open('sample.txt').read()
+
 vocab = sorted(set(text.lower().split()))
 
 print(vocab)

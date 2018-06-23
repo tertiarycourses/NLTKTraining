@@ -3,7 +3,8 @@
 # Author: Dr. Alfred
 
 from urllib import request
-url = "http://www.gutenberg.org/files/2554/2554-0.txt"
+
+url="https://en.wikipedia.org/wiki/George_Washington"
 response = request.urlopen(url)
 text = response.read().decode('utf8')
 

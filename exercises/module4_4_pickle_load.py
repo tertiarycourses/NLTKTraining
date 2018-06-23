@@ -28,5 +28,5 @@ classifier_f.close()
 
 # Step 5: Prediction/Evaluation
 import nltk
-print(classifier.classify(feature_extractor('Neo')))
+# print(classifier.classify(feature_extractor('Neo')))
 print(nltk.classify.accuracy(classifier, test_set))
